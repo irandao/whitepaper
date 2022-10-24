@@ -3,10 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <title>IranDao - Endgame</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="_media/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="_media/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="_media/favicon-16x16.png">
-    <link rel="manifest" href="_media/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="_media/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="_media/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="_media/favicon-16x16.png"
+    />
+    <link rel="manifest" href="_media/site.webmanifest" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta
       name="keywords"
@@ -53,14 +67,14 @@
   </head>
 
   <body>
-    <div id="app">Loading ...</div>
+    <div id="app">...صفحه در حال بارگذاری است</div>
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1"></script>
     <script>
       // Set html "lang" attribute based on URL
-      var lang = location.hash.match(/#\/(de-de|es)\//);
+      var lang = location.hash.match(/#\/(de-de|es)\//)
 
       if (lang) {
-        document.documentElement.setAttribute('lang', lang[1]);
+        document.documentElement.setAttribute('lang', lang[1])
       }
 
       // Docsify configuration
@@ -70,12 +84,14 @@
           '/eng/(.*)':
             'https://raw.githubusercontent.com/irandao/docs-en/master/$1',
         },
+        homepage: 'home.md',
         auto2top: true,
         coverpage: true,
         executeScript: true,
         loadSidebar: true,
         loadNavbar: true,
         mergeNavbar: true,
+        sidebarPosition: 'right',
         maxLevel: 4,
         subMaxLevel: 2,
         ga: 'UA-106147152-1',
@@ -83,7 +99,7 @@
           host: '//matomo.thunderwave.de',
           id: 6,
         },
-        name: 'IranDao',
+        name: 'ایران دائو',
         nameLink: {
           '/eng/': '#/eng/',
           '/': '#/',
@@ -100,8 +116,18 @@
           },
           pathNamespaces: ['/eng', '/de-de'],
         },
-      };
+        markdown: {
+          smartypants: true,
+        },
+        copyCode: {
+          buttonText: 'کپی کد',
+          errorText: 'خطا',
+          successText: 'کپی شد',
+        },
+      }
     </script>
+    <!-- Docsify v4 -->
+
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
@@ -112,14 +138,250 @@
       // Public site only
       if (/docsify/.test(location.host)) {
         document.write(
-          '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"><\/script>'
-        );
+          '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"><\/script>',
+        )
         document.write(
-          '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/matomo.min.js"><\/script>'
-        );
+          '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/matomo.min.js"><\/script>',
+        )
       }
     </script>
     <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
     <!-- <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script> -->
+
+    <style>
+      body {
+        font-family: Sahel;
+        border-top: 2px solid var(--theme-color, #42b983);
+      }
+
+      body.close .sidebar {
+        transform: translateX(300px) !important;
+      }
+
+      body .sidebar {
+        margin-top: 2px;
+        right: 0;
+        left: auto !important;
+        border-left: 1px solid rgba(0, 0, 0, 0.07);
+        direction: rtl;
+      }
+
+      body .content {
+        left: 0 !important;
+        right: 300px !important;
+      }
+
+      body.close .content {
+        left: 0 !important;
+        right: 0 !important;
+      }
+
+      .sidebar ul li.active > a {
+        border-right: 0px solid !important;
+        border-left: 2px solid;
+      }
+
+      .sidebar ul {
+        margin: 0 15px 0 0;
+      }
+
+      .app-nav.no-badge {
+        margin-left: 25px;
+        margin-right: 0 !important;
+      }
+
+      .app-nav {
+        margin: 0 0 25px 60px;
+        right: auto !important;
+        left: 0;
+        direction: rtl;
+        text-align: left;
+      }
+
+      table td:before {
+        content: '' !important;
+      }
+
+      /* .app-sub-sidebar li:before{
+          content: none !important;
+        } */
+
+      .app-sub-sidebar li:before {
+        content: '-';
+        padding-left: 4px;
+        float: right;
+      }
+
+      /* .sidebar-toggle {
+        background-color: transparent;
+        background-color: hsla(0, 0%, 100%, 0.8);
+        border: 0;
+        outline: none;
+        padding: 10px;
+        position: absolute;
+        bottom: auto !important;
+        right: 0;
+        left: auto !important;
+      } */
+
+      @media screen and (max-width: 768px) {
+        body.close .sidebar-toggle {
+          background-color: hsla(0, 0%, 100%, 0.8);
+          transition: background-color 1s;
+          width: 0 !important;
+          padding: 10px;
+        }
+
+        .content {
+          left: 300 !important;
+          max-width: 100vw;
+          position: static;
+          padding-top: 20px;
+          transition: transform 0.25s ease;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .sidebar {
+          right: -300px !important;
+          transition: transform 0.25s ease-out;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        body.close .sidebar-toggle {
+          background-color: hsla(0, 0%, 100%, 0.8);
+          transition: background-color 1s;
+          width: 0 !important;
+          padding: 10px;
+          right: 15px !important;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        body.close .content {
+          transform: translateX(-300px);
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        body.close .sidebar {
+          transform: translateX(-300px) !important;
+        }
+
+        nav {
+          display: none;
+        }
+      }
+
+      article {
+        direction: rtl;
+      }
+
+      blockquote {
+        border-left: 0 !important;
+        border-right: 4px solid var(--theme-color, #42b983);
+        margin: 2em 0;
+        padding-left: 0px;
+        padding-right: 20px;
+      }
+
+      .markdown-section code {
+        display: block;
+        direction: ltr;
+      }
+
+      .markdown-section pre {
+        border: 1px solid #ff9000;
+      }
+
+      .markdown-section code,
+      .markdown-section pre {
+        background-color: #eeeeee;
+      }
+
+      /* .sidebar-nav > ul > li:first-child {
+        font-weight: 600;
+        text-align: center;
+      } */
+
+      @media print {
+        body {
+          margin: 0;
+          color: #000;
+          background-color: #fff;
+        }
+
+        .app-nav,
+        .sidebar {
+          display: none;
+        }
+
+        body .content {
+          left: 0 !important;
+          right: 0 !important;
+        }
+      }
+
+      table td {
+        text-align: center;
+      }
+
+      /* @font-face {
+        font-family: Sahel;
+        src: url('resource/sahel-font-v3.4.0/Sahel.eot');
+        src: url('resource/sahel-font-v3.4.0/Sahel.eot?#iefix')
+            format('embedded-opentype'),
+          url('resource/sahel-font-v3.4.0/Sahel.woff2') format('woff2'),
+          url('resource/sahel-font-v3.4.0/Sahel.woff') format('woff'),
+          url('resource/sahel-font-v3.4.0/Sahel.ttf') format('truetype');
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: Sahel;
+        src: url('resource/sahel-font-v3.4.0/Sahel-Bold.eot');
+        src: url('resource/sahel-font-v3.4.0/Sahel-Bold.eot?#iefix')
+            format('embedded-opentype'),
+          url('resource/sahel-font-v3.4.0/Sahel-Bold.woff2') format('woff2'),
+          url('resource/sahel-font-v3.4.0/Sahel-Bold.woff') format('woff'),
+          url('resource/sahel-font-v3.4.0/Sahel-Bold.ttf') format('truetype');
+        font-weight: bold;
+      }
+
+      @font-face {
+        font-family: Sahel;
+        src: url('resource/sahel-font-v3.4.0/Sahel-Light.eot');
+        src: url('resource/sahel-font-v3.4.0/Sahel-Light.eot?#iefix')
+            format('embedded-opentype'),
+          url('resource/sahel-font-v3.4.0/Sahel-Light.woff2') format('woff2'),
+          url('resource/sahel-font-v3.4.0/Sahel-Light.woff') format('woff'),
+          url('resource/sahel-font-v3.4.0/Sahel-Light.ttf') format('truetype');
+        font-weight: 300;
+      }
+
+      @font-face {
+        font-family: Sahel;
+        src: url('resource/sahel-font-v3.4.0/Sahel-SemiBold.eot');
+        src: url('resource/sahel-font-v3.4.0/Sahel-SemiBold.eot?#iefix')
+            format('embedded-opentype'),
+          url('resource/sahel-font-v3.4.0/Sahel-SemiBold.woff2') format('woff2'),
+          url('resource/sahel-font-v3.4.0/Sahel-SemiBold.woff') format('woff'),
+          url('resource/sahel-font-v3.4.0/Sahel-SemiBold.ttf')
+            format('truetype');
+        font-weight: 600;
+      }
+
+      @font-face {
+        font-family: Sahel;
+        src: url('resource/sahel-font-v3.4.0/Sahel-Black.eot');
+        src: url('resource/sahel-font-v3.4.0/Sahel-Black.eot?#iefix')
+            format('embedded-opentype'),
+          url('resource/sahel-font-v3.4.0/Sahel-Black.woff2') format('woff2'),
+          url('resource/sahel-font-v3.4.0/Sahel-Black.woff') format('woff'),
+          url('resource/sahel-font-v3.4.0/Sahel-Black.ttf') format('truetype');
+        font-weight: 900;
+      } */
+    </style>
   </body>
 </html>
