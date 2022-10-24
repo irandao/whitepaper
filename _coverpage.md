@@ -9,4 +9,4 @@
 - Multiple themes
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Getting Started](#docsify)
+[Getting Started](#IranDao)
