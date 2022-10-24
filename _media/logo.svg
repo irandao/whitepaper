@@ -1,0 +1,28 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="300" height="250">
+	<title>logo-svg</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #00aa23 } 
+		.s2 { fill: #ff2d0b } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m374.2 437v40.6h-310.7-40.3-0.3v-69.5h-0.2v-40.6h69.4v-139.5h0.2 40.5 137.9v40.6h-137.9v138.4h-0.1v1.1h-69.2v28.9z"/>
+		<path id="Layer" class="s0" d="m92.3 160.6h178.4v40.6h-178.4z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s1" d="m132.7 22.4h0.1v110h-40.7v-69.4h-28.6v276.4h-40.6l-0.2-317h0.2z"/>
+		<path id="Layer" class="s1" d="m270.7 22.8v40.6 28 40.7h-109.8v-40.7h69.1v-28h-69.1v-40.6z"/>
+		<path id="Layer" class="s1" d="m298.9 22.7h178.4v40.6h-178.4z"/>
+		<path id="Layer" class="s1" d="m436.7 91.4h40.6v178.3h-40.6z"/>
+		<path id="Layer" class="s1" d="m367.7 160.7h40.6v69.4 40.6h-40.6-69.4v-40.6h69.4z"/>
+		<path id="Layer" class="s1" d="m299.2 91.4h40.6v110.1h-40.6z"/>
+		<path id="Layer" class="s1" d="m367.9 91.4h40.6v40.6h-40.6z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m408.5 408.1h-142.9v-40.6h102.1v-68.7h40.6v68.7h0.2z"/>
+		<path id="Layer" class="s2" d="m436.7 368.1h40.6v68.6 40.6h-40.6-34.2v-40.6h34.2z"/>
+		<path id="Layer" class="s2" d="m436.7 298.8h40.6v40.6h-40.6z"/>
+		<path id="Layer" class="s2" d="m299.1 298.6h40.6v40.6h-40.6z"/>
+	</g>
+	<path id="Layer" class="s0" d="m270.7 339.4v28.1 40.6h-40.7-69.1v-40.6h69.1v-28.1h-69.1v-40.6h109.8v40.6z"/>
+</svg>

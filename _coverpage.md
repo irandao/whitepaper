@@ -1,12 +1,19 @@
-![logo](_media/icon.svg)
+![logo](_media/logo.svg)
 
-# docsify <small>4.12.2</small>
 
-> A magical documentation site generator.
+# <p style="color:white"> IranDAO <small>Endgame</small><p>
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+> <p style="color:white"> پلتفرم مدون‌ سازی خرد جمعی و تامین مالی غیرمتمرکز<p>
 
+- <p style="color:white"> جهت کمک به فعالین انقلاب زن،زندگی،آزادی </p>
+
+<br>
+
+[Twitter](https://github.com/docsifyjs/docsify/)
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Getting Started](#ایران-دائو)
+[Email](https://github.com/docsifyjs/docsify/)
+[White Paper](#ایران-دائو)
+
+<!-- background color -->
+
+![color](#272727)
