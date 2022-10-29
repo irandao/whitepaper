@@ -12,7 +12,7 @@
 [Twitter](https://github.com/docsifyjs/docsify/)
 [GitHub](https://github.com/docsifyjs/docsify/)
 [Email](https://github.com/docsifyjs/docsify/)
-[White Paper](#ایران-دائو)
+[White Paper](content/quickstart.md)
 
 <!-- background color -->
 

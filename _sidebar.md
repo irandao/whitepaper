@@ -1,29 +1,29 @@
-- Getting started
+- ایده کلی
 
-  - [Quick start](content/quickstart.md)
-  - [Writing more pages](content/more-pages.md)
-  - [Custom navbar](content/custom-navbar.md)
-  - [Cover page](content/cover.md)
+  - [تیتر یک](content/quickstart.md)
+  - [تیتر دو](content/more-pages.md)
+  - [تیتر سه](content/custom-navbar.md)
+  - [تیتر چهار](content/cover.md)
 
-- Customization
+- چگونگی کارکرد
 
-  - [Configuration](content/configuration.md)
-  - [Themes](content/themes.md)
-  - [List of Plugins](content/plugins.md)
-  - [Write a Plugin](content/write-a-plugin.md)
-  - [Markdown configuration](content/markdown.md)
-  - [Language highlighting](content/language-highlight.md)
-  - [Emoji](content/emoji.md)
+  - [تیتر پنج](content/configuration.md)
+  - [تیتر شش](content/themes.md)
+  - [تیتر هفت](content/plugins.md)
+  - [تیتر هشت](content/write-a-plugin.md)
+  - [تیتر نه](content/markdown.md)
+  - [تیتر ده](content/language-highlight.md)
+  - [تیتر یازده](content/emoji.md)
 
-- Guide
+- توضیحات فنی
 
-  - [Deploy](content/deploy.md)
-  - [Helpers](content/helpers.md)
-  - [Vue compatibility](content/vue.md)
-  - [CDN](content/cdn.md)
-  - [Offline Mode (PWA)](content/pwa.md)
-  - [Server-Side Rendering (SSR)](content/ssr.md)
-  - [Embed Files](content/embed-files.md)
+  - [تیتر دوازده](content/deploy.md)
+  - [تیتر سیزده](content/helpers.md)
+  - [تیتر چهارده](content/vue.md)
+  - [تیتر پانزده](content/cdn.md)
+  - [ تیتر شانزده](content/pwa.md)
+  - [تیتر پانزده](content/ssr.md)
+  - [تیتر بیست](content/embed-files.md)
 
-- [Awesome docsify](content/awesome.md)
-- [Changelog](content/changelog.md)
+- [توییتر ](content/awesome.md)
+- [ایمیل](content/changelog.md)
