@@ -17,7 +17,7 @@
 
 - توضیحات فنی
 
-  - [تیتر دوازده](content/deploy.md)
+  - [صحبت درباره Protocol Desig](content/deploy.md)
   - [تیتر سیزده](content/helpers.md)
   - [تیتر چهارده](content/vue.md)
   - [تیتر پانزده](content/cdn.md)
