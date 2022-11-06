@@ -17,7 +17,7 @@
 
 - توضیحات فنی
 
-  - [صحبت درباره Protocol Desig](content/deploy.md)
+  - [صحبت درباره Protocol Design](content/deploy.md)
   - [تیتر سیزده](content/helpers.md)
   - [تیتر چهارده](content/vue.md)
   - [تیتر پانزده](content/cdn.md)
