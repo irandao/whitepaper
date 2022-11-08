@@ -1,3 +1,2 @@
 - Translations
   - [فارسی](/)
-  - [English](/eng/)

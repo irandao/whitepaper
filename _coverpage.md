@@ -9,10 +9,10 @@
 
 <br>
 
-[Twitter](https://github.com/docsifyjs/docsify/)
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Email](https://github.com/docsifyjs/docsify/)
-[White Paper](content/quickstart.md)
+[Twitter](https://twitter.com/irandao_org)
+[GitHub](https://github.com/irandao)
+[Email](mailto:info@irandao.org)
+[White Paper](content/IranDAO.md)
 
 <!-- background color -->
 

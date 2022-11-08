@@ -1,170 +1,22 @@
-# Doc helper
+###  همکاری در ساخت پلتفرم
 
-docsify extends Markdown syntax to make your documents more readable.
+حداقل تخصص‌های مورد نیاز برای تکمیل، پیشبرد و بهبود پلتفرم:
+Backend engineer, Frontend enginner, Smart Contract Developer, Product Designer, Devops Enginer
+پس از معرفی راه‌های [ ارتباطی رسمی پلتفرم](https://github.com/irandao/cordination/discussions/)، در آنها یک سرفصل با موضوع مورد نظر باز شده. در آنجا جزییات و روش‌های مورد قبول جهت همکاری در ابتدای پروژه مفصلاً توضیح داده میشود. در صورت تمایل به همکاری در آنجا اعلام نظر کنید. پس از لانچ اولیه پلتفرم، میتوان در قالب تسک‌ در Endgame اقدام به همکاری و مدیریت بخش فنی پروژه کرد.
 
-> Note: For the special code syntax cases, it's better to put them within code backticks to avoid any conflict from configurations or emojis.
 
-## Important content
 
-Important content like:
+<br>
 
-```markdown
-!> **Time** is money, my friend!
-```
+[ قبلی](/content/flows.md)
 
-is rendered as:
+<br>
 
-!> **Time** is money, my friend!
 
-## General tips
+[توییتر](https://twitter.com/irandao_org)
+<br>
 
-General tips like:
+[گیت هاب](https://github.com/irandao)
+<br>
 
-```markdown
-?> _TODO_ unit test
-```
-
-are rendered as:
-
-?> _TODO_ unit test
-
-## Ignore to compile link
-
-Sometimes we will use some other relative path for the link, and we have to tell docsify that we don't need to compile this link. For example:
-
-```md
-[link](/demo/)
-```
-
-It will be compiled to `<a href="/#/demo/">link</a>` and will load `/demo/README.md`. Maybe you want to jump to `/demo/index.html`.
-
-Now you can do that
-
-```md
-[link](/demo/ ':ignore')
-```
-
-You will get `<a href="/demo/">link</a>`html. Do not worry, you can still set the title for the link.
-
-```md
-[link](/demo/ ':ignore title')
-
-<a href="/demo/" title="title">link</a>
-```
-
-## Set target attribute for link
-
-```md
-[link](/demo ':target=_blank')
-[link](/demo2 ':target=_self')
-```
-
-## Disable link
-
-```md
-[link](/demo ':disabled')
-```
-
-## Cross-Origin link
-
-Only when you set both the `routerMode: 'history'` and `externalLinkTarget: '_self'`, you need to add this configuration for those Cross-Origin links.
-
-```md
-[example.com](https://example.com/ ':crossorgin')
-```
-
-## GitHub Task Lists
-
-```md
-- [ ] foo
-- bar
-- [x] baz
-- [] bam <~ not working
-  - [ ] bim
-  - [ ] lim
-```
-
-- [ ] foo
-- bar
-- [x] baz
-- [] bam <~ not working
-  - [ ] bim
-  - [ ] lim
-
-## Image
-
-### Resizing
-
-```md
-![logo](https://docsify.js.org/_media/icon.svg ':size=WIDTHxHEIGHT')
-![logo](https://docsify.js.org/_media/icon.svg ':size=50x100')
-![logo](https://docsify.js.org/_media/icon.svg ':size=100')
-
-<!-- Support percentage -->
-
-![logo](https://docsify.js.org/_media/icon.svg ':size=10%')
-```
-
-![logo](https://docsify.js.org/_media/icon.svg ':size=50x100')
-![logo](https://docsify.js.org/_media/icon.svg ':size=100')
-![logo](https://docsify.js.org/_media/icon.svg ':size=10%')
-
-### Customise class
-
-```md
-![logo](https://docsify.js.org/_media/icon.svg ':class=someCssClass')
-```
-
-### Customise ID
-
-```md
-![logo](https://docsify.js.org/_media/icon.svg ':id=someCssId')
-```
-
-## Customise ID for headings
-
-```md
-### Hello, world! :id=hello-world
-```
-
-## Markdown in html tag
-
-You need to insert a space between the html and markdown content.
-This is useful for rendering markdown content in the details element.
-
-```markdown
-<details>
-<summary>Self-assessment (Click to expand)</summary>
-
-- Abc
-- Abc
-
-</details>
-```
-
-<details>
-<summary>Self-assessment (Click to expand)</summary>
-
-- Abc
-- Abc
-
-</details>
-
-Markdown content can also be wrapped in html tags.
-
-```markdown
-<div style='color: red'>
-
-- listitem
-- listitem
-- listitem
-
-</div>
-```
-
-<div style='color: red'>
-
-- Abc
-- Abc
-
-</div>
+[ایمیل](mailto:info@irandao.org)

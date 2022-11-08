@@ -1,29 +1,40 @@
-- ایده کلی
+- مقدمه
 
-  - [تیتر یک](content/quickstart.md)
-  - [تیتر دو](content/more-pages.md)
-  - [تیتر سه](content/custom-navbar.md)
-  - [تیتر چهار](content/cover.md)
+  - [ایران دائو (IranDao)](content/IranDAO.md)
+  - [دائو (DAO)](content/DAO.md)
 
-- چگونگی کارکرد
 
-  - [تیتر پنج](content/configuration.md)
-  - [تیتر شش](content/themes.md)
-  - [تیتر هفت](content/plugins.md)
-  - [تیتر هشت](content/write-a-plugin.md)
-  - [تیتر نه](content/markdown.md)
-  - [تیتر ده](content/language-highlight.md)
-  - [تیتر یازده](content/emoji.md)
+- ‫معرفی ‬‫پلتفرم‬ ‫‪Endgame‬‬
 
-- توضیحات فنی
+  - [بازی نهایی (Endgame)](content/Endgame.md)
+  - [‫جذب ‬‫سرمایه‬ ‫و‬ ‫رسانه‬](content/Funding.md)
+  - [‫ایده ‬‫پردازی‬ ‫و‬ ‫مباحثه‬ ‫جمعی‬](content/Idea.md)
+  - [‫ب‬‫ررسی ‬‫و‬ ‫نظارت‬ ‫متخصصین‬](content/check.md)
+  - [‫فعالین ‬‫میدانی‬ ‫و‬ ‫غیر‬ ‫میدانی‬](content/activist.md)
+  - [‫پخش ‬‫سرمایه‬](content/distribution.md)
+  - [‫سیستم‬ ‫مدیریت‬ ‫جمعی‬](content/management.md)
 
-  - [صحبت درباره Protocol Design](content/deploy.md)
-  - [تیتر سیزده](content/helpers.md)
-  - [تیتر چهارده](content/vue.md)
-  - [تیتر پانزده](content/cdn.md)
-  - [ تیتر شانزده](content/pwa.md)
-  - [تیتر پانزده](content/ssr.md)
-  - [تیتر بیست](content/embed-files.md)
+-  تشریح نحوه کار
+  
+  - [‫تشر‬‫یح ‬‫نحوه‬ ‫کار‬ ‫و‬ ‫زمانبندی‬](content/plan.md)
 
-- [توییتر ](content/awesome.md)
-- [ایمیل](content/changelog.md)
+
+-  حریم خصوصی
+
+  - [‫چالشهای ‬‫حریم‬ ‫خصوصی‬](content/privacy.md)
+  - [آموزش](content/privacyLearning.md)
+  - [چک لیست](content/privacyCheckList.md)
+
+
+- ‫طراحی ‬‫فنی‬ ‫پلتفرم‬ 
+  
+  - [‫بخشهای ‬‫فنی‬](content/tech.md)
+  - [‫روندها‬](content/flows.md)
+
+-   مشارکت در توسعه
+  - [‫همکاری ‬‫در‬ ‫ساخت‬ ‫پلتفرم‬](content/helpers.md)
+
+
+- [سوالات متداول ](content/faq.md)
+- [توییتر ](https://twitter.com/irandao_org)
+- [ایمیل](mailto:info@irandao.org)
