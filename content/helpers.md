@@ -8,6 +8,9 @@ Backend engineer, Frontend enginner, Smart Contract Developer, Product Designer,
 
 <br>
 
+[ بعدی](/content/faq.md)
+<br>
+
 [ قبلی](/content/flows.md)
 
 <br>
