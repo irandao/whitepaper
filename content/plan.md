@@ -4,7 +4,7 @@
 
 - انتشار وایت‌پیپر و لایت‌پیپر پلتفر
 
-- باز کردن تاپیک‌های کلیدی در [ فرم های رسمی](https://github.com/irandao/cordination/discussions/) پس از 7روز
+- باز کردن تاپیک‌های کلیدی در [ فروم های رسمی](https://github.com/irandao/cordination/discussions/) پس از 7روز
 
 - انتخاب 7گرداننده مرکزی (همانطور که [ توضیح داده شده](/content/management.md) شد، مهمترین پیش‌نیاز شروع پلتفرم)
 
