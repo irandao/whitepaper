@@ -9,10 +9,10 @@
 
 <br>
 
-[Twitter](https://twitter.com/IranDao_Endgame)
-[GitHub](https://github.com/irandao)
-[Email](mailto:info@irandao.org)
-[White Paper](content/IranDAO.md)
+[توییتر](https://twitter.com/IranDao_Endgame)
+[گیت هاب](https://github.com/irandao)
+[ایمیل](mailto:info@irandao.org)
+[مطالعه مستندات](content/IranDAO.md)
 
 <!-- background color -->
 
