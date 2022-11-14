@@ -9,7 +9,7 @@
 
 <br>
 
-[Twitter](https://twitter.com/irandao_org)
+[Twitter](https://twitter.com/IranDao_Endgame)
 [GitHub](https://github.com/irandao)
 [Email](mailto:info@irandao.org)
 [White Paper](content/IranDAO.md)
