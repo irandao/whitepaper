@@ -36,5 +36,5 @@
 
 
 - [سوالات متداول ](content/faq.md)
-- [توییتر ](https://twitter.com/IranDao_Endgame)
+- [توییتر ](https://twitter.com/IranDao_)
 - [ایمیل](mailto:info@irandao.org)

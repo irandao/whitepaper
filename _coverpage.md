@@ -9,7 +9,7 @@
 
 <br>
 
-[توییتر](https://twitter.com/IranDao_Endgame)
+[توییتر](https://twitter.com/IranDao_)
 [گیت هاب](https://github.com/irandao)
 [ایمیل](mailto:info@irandao.org)
 [مطالعه مستندات](content/IranDAO.md)
